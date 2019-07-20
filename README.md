@@ -8,7 +8,7 @@
 
 - From github
 ```
-git clone https://github.com/wangbow/cross-jsonp.git
+git clone https://github.com/wangbow/cross-cros-implements
 ```
 
 ```
