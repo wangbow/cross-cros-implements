@@ -1,0 +1,41 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ajax</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+    }
+    h2{
+      margin: 20px;
+    }
+    button{
+      border: 0;
+      border-radius: 2px;
+      background: #409eff;
+      color: #fff;
+      padding: 3px 5px;
+      margin: 10px 0px 0 20px;
+    }
+    .text{
+      margin: 5px 0px 20px 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>点击下面按键，发起请求</h2>
+  
+  <button id="headAll">通过后端设置请求头，解决跨域请求安全问题</button>
+  <div class="text" id="all"></div>
+
+  <button id="addHeaderBtn">增加了自定义头的非简单请求的解决方法</button>
+  <div class="text" id="addHeader"></div>
+  <script  src="./dist/main.js"></script>
+</body>
+</html>
